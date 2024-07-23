@@ -35,7 +35,7 @@ exports.getCompany = async (req, res) => {
     const match = search
       ? {
           $or: [
-            { comapanyName: { $regex: search, $options: "i" } },
+            { companyName: { $regex: search, $options: "i" } },
             { country: { $regex: search, $options: "i" } },
             {
               "productPortFolio.productName": { $regex: search, $options: "i" },

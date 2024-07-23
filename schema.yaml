@@ -15,7 +15,7 @@ paths:
           application/json:
             schema:
               type: object
-              example: ""
+              example: "{\r\n    \"companyName\":\"ABCDE\",\r\n    \"logo\":\"base64; img; from frontend\",\r\n    \"hoAddress\":\"123, ABC, CHENNAI\",\r\n    \"country\":\"INDIA\",\r\n    \"postalCode\":122345,\r\n    \"city\":\"CHENNAI\",\r\n    \"contactNumber\":\"+91 34983238239\",\r\n    \"websiteUrl\":\"https://ABC.com\"\r\n    \"keyContact\":{\r\n        \"name\":\"CHECK\",\r\n        \"designation\":\"SDE\",\r\n        \"contactNumber\":\"+91 34983238239\",\r\n        \"email\":\"abc@gmail.com\"\r\n    }\r\n}"
       responses:
         "200":
           description: Successful response

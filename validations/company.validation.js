@@ -14,7 +14,7 @@ const projectPortfolioSchema = {
 };
 
 exports.postCompanySchema = Joi.object({
-  comapanyName: Joi.string().min(3).max(50).required(),
+  companyName: Joi.string().min(3).max(50).required(),
   logo: Joi.string(),
   hoAddress: Joi.string().required(),
   country: Joi.string().required(),
